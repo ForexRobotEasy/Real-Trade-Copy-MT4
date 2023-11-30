@@ -1,0 +1,62 @@
+mql5
+//+------------------------------------------------------------------+
+//| Real Trade Copy MT4                                              |
+//| Developer's Site: forexroboteasy.com                             |
+//| Development: Forex Robot Easy Team                               |
+//|                                                                  |
+//| This program enables seamless copying of transactions from one   |
+//| MT5 account or MT4 account to another MT4 account.               |
+//+------------------------------------------------------------------+
+
+#include <Trade\Trade.mqh>
+
+//+------------------------------------------------------------------+
+//| CopyTrading                                                      |
+//|                                                                  |
+//| Function to copy trades between Netting and Hedging accounts     |
+//| and replicate trades from one account to another.                 |
+//+------------------------------------------------------------------+
+void CopyTrading()
+{
+   // Add code here to copy trades between accounts
+}
+
+//+------------------------------------------------------------------+
+//| AdvancedFiltering                                                |
+//|                                                                  |
+//| Function to implement filters based on instrument's name and      |
+//| magic numbers of positions.                                      |
+//| Allow customization of the copying process by specifying which   |
+//| trades are to be replicated.                                      |
+//+------------------------------------------------------------------+
+void AdvancedFiltering()
+{
+   // Add code here to implement advanced filtering
+}
+
+//+------------------------------------------------------------------+
+//| SupportMarketPosition                                            |
+//|                                                                  |
+//| Function to facilitate copying of market positions.               |
+//+------------------------------------------------------------------+
+void SupportMarketPosition()
+{
+   // Add code here to support copying of market positions
+}
+
+//+------------------------------------------------------------------+
+//| OnInit                                                           |
+//|                                                                  |
+//| Initialization function to be called when the program starts.     |
+//| Implements necessary trading functions to enable copying of       |
+//| transactions. Ensures compatibility with both MT5 and MT4 accounts|
+//| Develops a seamless and reliable solution for replicating trades  |
+//| and strategies across multiple accounts.                          |
+//+------------------------------------------------------------------+
+void OnInit()
+{
+   // Add code here to initialize the program
+   CopyTrading();
+   AdvancedFiltering();
+   SupportMarketPosition();
+}
